@@ -3,90 +3,62 @@
 
 <head>
   <meta charset="utf-8">
-  <title>My Website</title>
+  <title>George Trialonis</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing='30'>
-    <tr>
-      <td><img src="me.jpg" alt="George Trialonis' picture"></td>
-      <td><h1>George Trialonis</h1>
-      <p><em>Writer, Programmer</em></p>
-      <p>I am a retired translator-interpreter interested in computer science,
-        artificial intelligence, quantum physics and metaphysics.
-        With respect to the latter two intersts, I have created a few videos in
-        Greek and one in English.
-        I do a lot of walking and love cooking. I know a little bit of
-        German which I am trying to improve with a software that I have created.
-        Also, included in my creative flares are poems, short stories and now a novel in progress,</p></td>
-    </tr>
-  </table>
-    <hr size='3'>
-    <h3><strong>Education</strong></h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>School</th>
-        </tr>
-      </thead>
-      <tr>
-        <td>1979-1983</td>
-        <td>University of Toronto, BA Philosophy</td>
-      </tr>
-    </table>
-    <hr><strong>Work Experience</strong></hr>
-    <table>
-      <thead>
-        <tr>
-          <th><strong>Dates</strong></th>
-          <th><strong>Work</strong></th>
-        </tr>
-      </thead>
-      <tr>
-        <td>1983-1992</td>
-        <td>English Language Instructor</td>
-      </tr>
-      <tr>
-        <td>1992-2010</td>
-        <td>Translator-Interpreter</td>
-      </tr>
-    </table>
-    <hr size='3'>
-    <h3><strong>Skills</strong></h3>
-    <table cellspacing='15'>
-      <thead>
-        <tr>
-          <th>Programming</th>
-          <th>Other skills</th>
-        </tr>
-      </thead>
-      <tr>
-        <td>Python..........................⭐⭐⭐</td>
-        <td>Fiction Writing.......................⭐⭐⭐⭐</td>
-      </tr>
-        <td>tkinter GUI..................⭐⭐⭐</td>
-        <td>Poetry.....................................⭐⭐⭐</td>
-      <tr>
-        <td>HTML.........................⭐⭐</td>
-        <td>Translator(Greek-English).....⭐⭐⭐⭐</td>
-      </tr>
-        <td>Artificial Intelligence..⭐</td>
-        <td>Cooking (Greek cuisine).......⭐⭐⭐⭐</td>
-      </tr>
-    </table>
-    <h3>My Websites</h3>
-    <ol>
-      <li><a href="https://crateros.com" </a>crateros.com </li>
-      <li><a href="https://trialonis.blogspot.com" </a>trialonis.blogspot.com </li>
-      <li><a href="https://goldenbees.wordpress.com" </a>goldenbees.wordpress.com </li>
-      <li><a href="https://www.youtube.com/user/GTrialonis" </a>my Youtube Channel</li>
-    </ol>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm George</h1>
+    <h2>a <span class="pro">pro</span>grammer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="circular" src="me.jpg" alt="George Trialonis' picture">
+      <h2>Hello</h2>
+      <p class='intro'>I am a programmer and writer, following a career in Translation/Interpretation.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>Developing Skills</h2>
+      <div class="skill-row">
+        <img class="AI" src="images/AI.jpg" alt="AI-img" width="200" height="200">
+        <h3>Coding</h3>
+        <p>I am fairly good at Python and currently working to improve HTML, CSS and JS.
+        Also, I have dipped into Machine Learning and experimenting with various models of algorithms</p>
+      </div>
+      <div class="skill-row">
+        <img class="Phaistos_Disk" src="images/Phaistos_Disk.jpg" alt="Phaistos_Disk-img" width="200" height="200">
+        <h3>Creative writing</h3>
+        <p>Have published online
+          <a href="https://trialonis.blogspot.com">poems </a>and
+          <a href="https://www.smashwords.com/books/search?query=trialonis">short stories.</a> I am currently writting a
+          <a href="https://crateros.com">novel.</a>
+        </p>
+      </div>
 
-    <a href="hobbies.html">My Hobbies</a>
-    <p>
-    <a href="contact.html">Contact me</a>
-    </p>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you think that my skills are interesting,</h3>
+      <p class="contact-message">please do not hesitate to contact me.</p>
+      <a class="btn" href="mailto:gtrialonis@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://crateros.com/">Novel in progress</a>
+    <a class="footer-link" href="https://trialonis.blogspot.com/">My Blog</a>
+    <a class="footer-link" href="https://goldenbees.wordpress.com/">WordPress site</a>
+    <p class="copyright">© 2019 George Trialonis</p>
+  </div>
 
 </body>
 
