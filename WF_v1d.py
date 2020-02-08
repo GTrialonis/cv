@@ -489,13 +489,13 @@ def save_examples():
     save examples
     """
     try:
-        os.makedirs("/Users/User/Desktop/FLang")
-        with open('/Users/User/Desktop/FLang/Repository.txt', 'a',
+        os.makedirs("Desktop/FLang")
+        with open('Desktop/FLang/Repository.txt', 'a',
                   encoding='utf-8') as exmpl_file:
             exmpl_file.write(text_C.get("1.0", END))
     except FileExistsError:
         # directory already exists
-        with open('/Users/User/Desktop/FLang/Repository.txt', 'a',
+        with open('Desktop/FLang/Repository.txt', 'a',
                   encoding='utf-8') as exmpl_file:
             exmpl_file.write(text_C.get("1.0", END))
 # -------------------------------------------------------------
