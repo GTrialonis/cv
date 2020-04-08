@@ -12,7 +12,7 @@
     <div id="map"></div>
     <script>
     	var map = L.map('map').setView([35.33,25.14], 12);
-    	L.tileLayer('https://api.maptiler.com/maps/hybrid/256/{z}/{x}/{y}.jpg?key=1QeRZ1tV0uB41fha7rlj', {
+    	L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=1QeRZ1tV0uB41fha7rlj', {
     		attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
             crossOrigin: true
     	}).addTo(map);
